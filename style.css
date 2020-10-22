@@ -1,0 +1,143 @@
+body {
+    background-color: white;
+}
+
+
+main {
+    background-color: azure;
+    display: block;
+    max-width: 1100px;
+    border: 1px solid grey;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    font-family: helvetica serif;
+}
+
+header {
+    width: 100%;
+}
+
+h1 {
+    font-family: fantasy;
+    font-size: 3.2em;
+    margin-left: 10px;
+}
+
+.contact_header {
+    position: relative;
+    bottom:  95px;
+    padding-left: 80%;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    filter: drop-shadow(5px 5px 4px grey);
+    
+}
+
+nav a {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 0.8em;
+    background-color: gray;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.front1 {
+    background: url(images/large1b.jpg);
+    background-color: #000;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.front1 {
+    font-size: 1.4em;
+    padding-top: 2em;
+    padding-left: 1.8em;
+}
+
+.text1 {
+    border: solid 1px gold;
+    padding: 15px;
+    padding-right: 0px;
+    width: 30%;
+    border-radius: 9px;
+    margin-top: 70px;
+    background-color: rgba(255, 255, 255, 0.55);
+    opacity: inherit;
+    color: black;
+}
+
+h2 {
+    font-family: serif;
+    font-size: 2em;
+    padding-left: 1.3em;
+    filter: drop-shadow(1px 1px 10px green);
+    
+}
+
+.pics {
+    display: flex;
+    justify-content:flex-start;
+    width: 100%;
+
+}
+
+.pics img {
+    filter: drop-shadow(8px 8px 10px #000);
+    border-radius:5px 5px 5px 5px;
+}
+
+.pics2 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.pics2 img {
+    filter: drop-shadow(8px 8px 10px #000);
+    border-radius:5px 5px 5px 5px;
+}
+
+figure figcaption {
+    text-align: center;
+    margin-top: 10px;
+    font-style: oblique;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
